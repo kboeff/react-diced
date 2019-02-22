@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from './Slider';
 
 const Card = ({ name, email, id }) => {
     return (
@@ -8,6 +9,7 @@ const Card = ({ name, email, id }) => {
                 <h2>{ name }</h2>
                 <p>{ email }</p>
             </div>
+            <Slider />
         </div>
     );
 }
