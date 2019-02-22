@@ -4,6 +4,7 @@ import './index.css';
 import CardList from './Cardlist';
 import * as serviceWorker from './serviceWorker';
 import 'tachyons';
+import 'tachyons-hovers';
 
 ReactDOM.render(
     <CardList />
